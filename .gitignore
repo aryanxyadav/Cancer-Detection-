@@ -1,0 +1,28 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ML artifacts (large/binary — regenerate instead of tracking)
+ml/models/*.joblib
+ml/models/*.pkl
+
+# Environment secrets
+.env
+.env.local
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Node (for later frontend/backend phases)
+node_modules/
+.next/
+dist/
+build/
+
+# Logs
+*.log
